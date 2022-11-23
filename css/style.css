@@ -1,0 +1,213 @@
+@font-face {
+  font-family: 'Poppins-Black';
+  src: url('../assets/fonts/Poppins-Black.woff2') format('woff2');
+  src: url('../assets/fonts/Poppins-Black.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../assets/fonts/Poppins-Regular.woff2') format('woff2');
+  src: url('../assets/fonts/Poppins-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/Roboto-Regular.woff2') format('woff2');
+  src: url('../assets/fonts/Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('../assets/fonts/Poppins-Medium.woff2') format('woff2');
+  src: url('../assets/fonts/Poppins-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+    --text-color: #111111;
+    --ui-color: #656293;
+}
+
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+a {
+  font-family: 'Poppins-Medium';
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #151515;
+}
+
+.h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.125rem;
+  line-height: 78px;
+}
+
+.h2 {
+
+}
+
+.h3 {
+
+}
+
+.h4{
+  font-family: 'Poppins-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 21px;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+/* header start */
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.header__wrapper {
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.header__block {
+  width: 20%;
+}
+
+.header__block:last-child {
+  text-align: right;
+}
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn__Register {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: 'Poppins-Medium';
+}
+
+.btn__SignIn {
+  display: inline-block;
+  padding: 5px 23px;
+  border: 1px solid var(--ui-color);
+  font-size: 0.875rem;
+  line-height: 120%;
+  color: #FFFFFF;
+  background-color: var(--ui-color);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav__link {
+  margin-right: 20px;
+  color: #181818;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav__link:last-child {
+  margin-right: 0;
+}
+
+  /* header end */
+
+/* Intro Start */
+.intro {
+  background: url('../assets/img/popular/wing-airplane-with-city-background\ 1\ \(2\).jpg');
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.intro__content {
+  height: 750px;
+  display: flex;
+  align-items: center;
+}
+
+.intro__block{
+
+}
+
+.intro__title {
+  margin-bottom: 50px;
+  max-width: 587px;
+  font-size: 66px;
+  font-weight: 400;
+  color: #151515;
+  line-height: 77px;
+}
+
+.intro__link {
+display: flex;
+align-items: center;
+margin-left: 5px;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.m_arrow {
+  margin-left: 12px;
+}
+/* Intro End */
